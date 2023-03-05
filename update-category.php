@@ -114,7 +114,7 @@
 
                 $source_path = $_FILES['image']['tmp_name'];
 
-                $destination_path = "../images/category/".$image_name;
+                $destination_path = "./images/category/".$image_name;
 
                 $upload = move_uploaded_file($source_path, $destination_path);
 
@@ -134,7 +134,7 @@
                 }
 
                 if($current_image!="") {
-                    $remove_path = "../images/category/".$current_image;
+                    $remove_path = "./images/category/".$current_image;
 
                     $remove = unlink($remove_path);
 

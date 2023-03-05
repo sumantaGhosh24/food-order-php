@@ -1,6 +1,6 @@
 <?php
 
-require '../config/constants.php';
+require './config/constants.php';
 
 if (isset($_POST["getNewOrderItem"])) {
 	$sql = "SELECT * FROM food";

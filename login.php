@@ -1,4 +1,4 @@
-<?php include('../config/constants.php'); ?>
+<?php include('./config/constants.php'); ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- favicon -->
-    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
 
     <!-- tailwind js cdn -->
     <script src="https://cdn.tailwindcss.com"></script>

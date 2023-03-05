@@ -111,7 +111,7 @@
 
               $source_path = $_FILES['image']['tmp_name'];
 
-              $destination_path = "../images/food/".$image_name;
+              $destination_path = "./images/food/".$image_name;
 
               $upload = move_uploaded_file($source_path, $destination_path);
 
@@ -153,7 +153,7 @@
         } else {
             $_SESSION['add'] = '
             <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative" role="alert">
-                <strong class="font-bold">DAnger!</strong>
+                <strong class="font-bold">Danger!</strong>
                 <span class="block sm:inline">Failed to add food.</span>
             </div>
             ';

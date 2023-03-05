@@ -4,7 +4,7 @@
                 <div class="mb-6 md:mb-0">
                 <a href="#" class="flex items-center">
                     <img
-                    src="../images/logo.png"
+                    src="./images/logo.png"
                     class="h-8 mr-3"
                     alt="logo"
                     />

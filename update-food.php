@@ -131,7 +131,7 @@
                     $image_name = "Food-Name-".rand(0000, 9999).'.'.$ext;
 
                     $src_path = $_FILES['image']['tmp_name'];
-                    $dest_path = "../images/food/".$image_name;
+                    $dest_path = "./images/food/".$image_name;
 
                     $upload = move_uploaded_file($src_path, $dest_path);
 
@@ -150,7 +150,7 @@
                         die();
                     }
                     if($current_image!="") {
-                        $remove_path = "../images/food/".$current_image;
+                        $remove_path = "./images/food/".$current_image;
 
                         $remove = unlink($remove_path);
 
@@ -177,7 +177,6 @@
             }     
 
             $sql3 = "UPDATE food SET title = '$title',description = '$description', price = $price,image_name = '$image_name', category_id = '$category', featured = '$featured', active = '$active' WHERE id=$pid";
-            // echo $sql3;die();
 
             $res3 = mysqli_query($conn, $sql3);
 

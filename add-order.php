@@ -78,7 +78,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>	
 	$(document).ready(function(){
-		var DOMAIN = "http://localhost/food-order-php/admin";
+		var DOMAIN = "http://localhost/food-order-php/";
 	
 		addNewRow();
 	
