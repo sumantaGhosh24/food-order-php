@@ -1,7 +1,10 @@
-<?php 
-    include('./config/constants.php');
-    
-    session_destroy();
+<?php
+require "./includes/database.php";
 
-    header('location:'.SITEURL.'login.php');
+unset($_SESSION["USER_LOGIN"]);
+unset($_SESSION["USER_ID"]);
+unset($_SESSION["USER_NAME"]);
+
+header("Location: index.php");
+die();
 ?>

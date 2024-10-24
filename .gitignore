@@ -1,3 +1,4 @@
-images/category/*
-images/food/*
-PDF_INVOICE/*
+data
+vendor
+uploads
+constant.php
